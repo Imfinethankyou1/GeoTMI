@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(description='Input')
 parser.add_argument('--QM9M_data_dir', type=str, default='./qm9mmff/',
               help='QM9M data directory')
 parser.add_argument('--QM9_data_dir', type=str, default='./qm9origin/',
-              help='QM9M data directory')
+              help='QM9 data directory')
 parser.add_argument('--save_data_dir', type=str, default='geom_data',
               help='Directory of traning dataset using fully connected edge')
 
