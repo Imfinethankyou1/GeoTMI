@@ -42,11 +42,3 @@ python -u test.py \
   --ncpu 6 \
   --checkpoint_file ${YOUR_CHECKPOINT_FILE}
 ```
-
-## Pre-trained Models
-
-Pre-trained models are available in this directory.
-
-```console
-results/{dft,mmff,ours}/{alpha,cv,gap,homo,lumo mu,r2,u0_atom,zpve}/best.pt
-```
